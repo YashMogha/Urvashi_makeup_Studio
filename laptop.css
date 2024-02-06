@@ -1,0 +1,25 @@
+html{
+  font-size: 9px;
+}
+/* service section */
+#services{
+  height: 135rem;
+}
+#box{
+  flex-direction: column;
+}
+.boxes{
+  height: 39rem;
+  width: 45rem;
+}
+.boxes img{
+  height: 28rem;
+  width: 19.5rem;
+}
+/* portfolio section */
+#collage{
+    width: 70rem;
+}
+.item{
+height: 44vh;
+}

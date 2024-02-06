@@ -1,0 +1,62 @@
+html{
+    font-size: 9px;
+}
+/* header & navigation section */
+header {
+    flex-direction: column;
+    justify-content: center;
+    padding: .9rem .5rem;
+    width: 80rem;
+}
+#name {
+    font-size: 3rem;
+    font-weight: 550;
+}
+#makeup {
+    font-size: 2.2rem;
+}
+#nav {
+    margin: 1rem auto;
+    width: 37rem;
+    font-size: 2.18rem;
+}
+/* home section */
+#home{
+    width: 80rem;
+}
+#home img{
+    width: 70rem;
+   }
+   /* pink back */
+#bgpink{
+  top: 47rem;
+  width: 80rem;
+}
+/* services section */
+#services{
+    width: 80rem;
+}
+/* portfolio */
+#portfolio{
+    width: 80rem;
+}
+#collage{
+    width: 60rem;
+}
+.item{
+height: 25rem;
+}
+/* contact */
+#contact{
+    width: 80rem;
+}
+#form{
+    width: 36vw;
+   }
+   input{
+    width: 30rem;
+   }
+   /* copyright */
+#copyright{
+    width: 80rem;
+}

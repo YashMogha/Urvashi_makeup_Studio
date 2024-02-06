@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+}
+html{
+  width: 100vw;
+  font-size: 10px;
+}
+  /* header & navigation section */
+   header{
+    /* border: 2px solid; */
+    position: sticky;
+    background-color: white;
+    top: .005rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem .5rem;
+    margin: 1rem auto;
+   } 
+   #name{
+    font-size: 2.72rem;
+    font-weight: 505;
+   }
+   #makeup{
+    font-size: 1.92rem;
+   }
+   #nav{
+    width: 40vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.08rem;
+   }
+   #nav a{
+    text-decoration: none;
+    color: black;
+   }
+   /* home section */
+   #home{
+    /* border: 3px solid; */
+    width: 100vw;
+   }
+   #home img{
+    width: 94vw;
+    display: block;
+    margin: auto;
+   }
+  #bgpink{
+  /* border: 2px solid; */
+  background-color: #d98b99;
+  height: 12rem;
+  width: 100vw;
+  position: absolute;
+  top: 61vw;
+  z-index: -1;
+ } 
+  /* services section */
+  #services{
+    background-color: #d98b99;
+    height: 50rem;
+  }
+  #services h1{
+   padding: 1.6rem;
+  }
+  #box{
+    /* border: 2px solid; */
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxes{
+    /* border: 2px solid; */
+    background-color:aliceblue;
+    border-radius: 5%;
+    height: 34rem;
+    width: 29rem;
+    margin: 1rem 1.2rem;
+    padding: 1rem;
+  }
+  .boxes img{
+    display: block;
+    margin: auto;
+    height: 20rem;
+    width: 13.5rem;
+  }
+  .boxes h2{
+    font-size: 2.2rem;
+    margin: .6rem auto;
+  }
+  .boxes p{
+    font-size: 1.6rem;
+    margin: 1rem auto;
+  }
+    /* portfolio section */
+   #portfolio{
+    background-color: purple;
+    padding: 4rem 0rem;
+   }
+   #portfolio h1{
+    color: aliceblue;
+   }
+   #collage{
+    /* width: 57vw; */
+    width: 78rem;
+    padding: 3rem 0rem;
+    margin: 0rem auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   }
+   .item{
+    border: .3rem solid white;
+    display: block;
+    height: 49vh;
+    /* height: 32rem; */
+    /* fill the blank space with the content */
+    width: -webkit-fill-available;   
+    /* width: 100px;  */
+   }
+   #item5{
+    grid-column: 2/ span 2;
+   }
+   /* contact ection */
+   #contact{
+    background-color: #d98b99;
+    padding: 2rem 0rem;
+   }
+   #contact h1{
+    padding: .4rem;
+   }
+   #contact h3{
+    font-size: 1.8rem;
+    padding: .3rem;
+
+   }
+   #form{
+    width: 36vw;
+    margin: auto;
+   }
+   input{
+    display: block;
+    margin: .8rem auto;
+    padding: .5rem;
+    width: 27vw;
+    font-size: 1.76rem;
+    text-align: center;
+   }
+   input[type="submit"]{
+     background-color: black;
+     color: white;
+     cursor:pointer;
+     transition: 1s;
+   }
+   input[type="submit"]:hover{
+    background-color:#d98b99;
+    color: black;
+   }
+   #copyright{
+    background-color: black;
+    color: white;
+    padding: .5rem;
+    font-size: 1.68rem;
+   }
+  /* utility classes */
+ .h-primary{
+    font-size: 4.48rem;
+    letter-spacing: .2rem;
+ }
+ .center{
+    text-align: center;
+ }

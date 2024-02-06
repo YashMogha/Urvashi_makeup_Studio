@@ -1,0 +1,72 @@
+/* header & nav */
+header {
+    padding-top: 1.2rem;
+}
+
+#name {
+    font-size: 4.5rem;
+}
+
+#makeup {
+    font-size: 3rem;
+}
+
+#nav {
+    width: 51rem;
+    font-size: 2.9rem;
+}
+/* pink back */
+#bgpink {
+    top: 50rem;
+}
+/* services */
+#services {
+    height: 178rem;
+}
+
+.boxes {
+    height: 52rem;
+    width: 63rem;
+}
+
+.boxes img {
+    height: 34rem;
+    width: 24.5rem;
+}
+
+.boxes h2 {
+    font-size: 3.3rem;
+    margin: 1rem auto;
+}
+
+.boxes p {
+    font-size: 2.6rem;
+}
+/* portfolio */
+#collage {
+    width: 70rem;
+}
+
+.item {
+    height: 29rem;
+}
+/* contact */
+#contact h3{
+    font-size: 3rem;
+    padding: .7rem;
+   }
+   input{
+    margin: 1rem auto;
+    width: 50rem;
+    font-size: 2.6rem;
+   }
+   /* copyright */
+   #copyright{
+    padding: .7rem;
+    font-size: 2.5rem;
+   }
+/* utility classes */
+.h-primary {
+    font-size: 4.58rem;
+    letter-spacing: .2rem;
+}

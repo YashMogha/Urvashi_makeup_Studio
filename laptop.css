@@ -3,13 +3,13 @@ html{
 }
 /* service section */
 #services{
-  height: 135rem;
+  height: 145rem;
 }
 #box{
   flex-direction: column;
 }
 .boxes{
-  height: 39rem;
+  height: 41rem;
   width: 45rem;
 }
 .boxes img{
